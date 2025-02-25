@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+header h1 {
+    color: #4caf50;
+    font-size: 2.5em;
+}
+
+.question h2 {
+    margin-bottom: 20px;
+}
+
+.chemical-structure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+svg {
+    width: 200px;
+    height: 200px;
+}
+
+line {
+    stroke: black;
+    stroke-width: 3;
+}
+
+.main-bond {
+    stroke-width: 4;
+}
+
+.branch-bond {
+    stroke-width: 3;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 1em;
+    width: 80%;
+    max-width: 400px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* تصميم زر واتساب */
+.whatsapp-button {
+  display: inline-block;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.whatsapp-button:hover {
+  background-color: #1da851;
+}

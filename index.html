@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سؤال كيميائي</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>MOATAZ</h1>
+    </header>
+
+    <section class="question">
+        <h2>ما اسم هذا المركب الكيميائي؟</h2>
+        <div class="chemical-structure">
+            <svg viewBox="0 0 200 200">
+                <!-- السلسلة الرئيسية -->
+                <line x1="50" y1="100" x2="100" y2="100" class="main-bond" />
+                
+                <!-- التفرعات -->
+                <line x1="100" y1="100" x2="130" y2="70" class="branch-bond" />
+                <line x1="100" y1="100" x2="130" y2="130" class="branch-bond" />
+                <line x1="100" y1="100" x2="150" y2="100" class="branch-bond" />
+            </svg>
+        </div>
+
+        <form action="#">
+            <label for="studentName">اسم الطالب:</label>
+            <input type="text" id="studentName" name="studentName" required>
+
+            <label for="answer">الإجابة:</label>
+            <input type="text" id="answer" name="answer" required>
+
+            <button type="submit">إنهاء</button>
+        </form>
+    </section>
+</body>
+</html>
+<!-- زر للتواصل عبر واتساب -->
+<a href="https://wa.me/201144218416" target="_blank" class="whatsapp-button">
+  تواصل معي عبر واتساب
+</a>
